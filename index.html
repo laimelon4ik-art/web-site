@@ -5,20 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Hello site</title>
+    <style>
+        
+.video-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.video-section h2 {
+  margin-bottom: 20px;
+}
+
+.video-section video {
+  display: block;
+  width: 100%;
+  max-height: 500px;
+  background: #000;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+    </style>
 </head>
 <body>
-    <p>
-        Hello World!
-    </p>
-    <a href="https://img.magnific.com/photos-gratuite/gros-plan-beau-papillon-textures-interessantes-fleur-petale-orange_181624-7640.jpg?semt=ais_hybrid&w=740&q=80">photo</a>
-    <div>
-        <p>row 1</p>
-        <p>row 2</p>
-    </div>
-    <img src="https://img.magnific.com/photos-gratuite/gros-plan-beau-papillon-textures-interessantes-fleur-petale-orange_181624-7640.jpg?semt=ais_hybrid&w=740&q=80" alt="Beautifull butterfly">
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-    <input type="button" value="Enter">
-    <input type="checkbox" value="Submit">
+   
+<section class="video-section">
+  <h2>Minecraft: Le Film</h2>
+  <video controls preload="metadata" playsinline>
+    <source src="minecraft-video.mp4" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+</section>
+
 </body>
 </html>
